@@ -20,3 +20,9 @@ http://localhost:8080/swagger-ui/index.html
 # Testing notes
 The program creates a MySQL database and all tables are dropped at program shutdown.<br>
 You can change the shutdown behaviour in the `application.properties` file under `src/main/resources` by modifying the `spring.jpa.hibernate.ddl-auto` property.
+<br><br>
+For testing the upload bulk data endpoint, try uploading the file:
+
+```
+src/test/resources/dow_jones_index.data
+```
