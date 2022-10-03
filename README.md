@@ -1,4 +1,4 @@
-#Usage
+# Usage
 Navigate to the root folder of the project and create the jar file:<br>
 
 ```
@@ -17,6 +17,6 @@ Then, navigate to the swagger UI using your browser at: <br>
 http://localhost:8080/swagger-ui/index.html
 ```
 
-#Testing notes
+# Testing notes
 The program creates a MySQL database and all tables are dropped at program shutdown.<br>
 You can change the shutdown behaviour in the `application.properties` file under `src/main/resources` by modifying the `spring.jpa.hibernate.ddl-auto` property.
